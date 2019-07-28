@@ -1,0 +1,9 @@
+active_text_color=#FFFFFF
+inactive_text_color=#00FFA4
+button_offset=1
+button_spacing=2
+button_layout=|HMC
+title_horizontal_offset=0
+full_width_title=true
+show_app_icon=false
+

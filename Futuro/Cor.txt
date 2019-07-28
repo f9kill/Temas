@@ -1,0 +1,5 @@
+claro: 44c4cd
+medio: 097389
+escur: 032338
+
+516c00

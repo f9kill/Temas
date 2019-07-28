@@ -1,131 +1,136 @@
-# Tema modificado do: yaat322
-# Link: https://www.opendesktop.org/p/1173281/
+# Nome: Simples
+# Autor: Hugo Torres <hugotorres@protonmail.ch>
 #
-# Autor: Hugo Torres
+# Licença: BSD 2-clause 
 
-# Distancia entre os botões -- O X
-padding.width                                       : 4
-# Tamanho da barra de titulo
-padding.height                                      : 3
+# ======================================================================
+#			MENU
+# ======================================================================
 
-border.width                                        : 1
-window.active.border.color                          : #A0A0A0
-window.inactive.border.color                        : #CACACA
-window.active.title.separator.color                 : #A0A0A0
-window.inactive.title.separator.color               : #A0A0A0
-window.client.padding.width                         : 0
-window.client.padding.height                        : 0
+# Titulo do menu
+menu.title.bg:					flat solid
+menu.title.bg.color:				#5b5b5b
+menu.title.text.color:				#ffffff
+menu.title.text.justify:			center
 
-window.label.text.justify                           : center
-window.active.label.text.color                      : #2E3436
-window.inactive.label.text.color                    : #8B8E8F
+# Itens do menu
+menu.items.bg:					flat solid
+menu.items.bg.color:				#000000
+menu.items.text.color:				#FFFFFF
+menu.items.justify:				center
 
-window.active.title.bg                              : gradient vertical flat
-window.active.title.bg.color                        : #F0F1F0
-window.active.title.bg.colorTo                      : #A0A0A0
-window.active.label.bg                              : parentrelative
+# Item do menu selecionado
+menu.items.active.bg:				flat solid
+menu.items.active.bg.color:			#bbbbbb
+menu.items.active.text.color:			#000000
 
-window.inactive.title.bg                            : gradient vertical flat
-window.inactive.title.bg.color                      : #F0F1F0
-window.inactive.title.bg.colorTo                    : #A0A0A0
-window.inactive.label.bg                            : parentrelative
+# Setas do menu
+menu.bullet.image.color:			#FFFFFF
+menu.bullet.selected.image.color:		#000000
 
-window.active.button.unpressed.image.color          : #2E3436
-window.active.button.pressed.image.color            : #2E3436
-window.active.button.disabled.image.color           : #ACAEAF
-window.active.button.hover.image.color              : #2E3436
-window.active.button.toggled.unpressed.image.color  : #2E3436
-window.active.button.toggled.pressed.image.color    : #2E3436
-window.active.button.toggled.hover.image.color      : #2E3436
+# Separador
+menu.separator.color:				#FFFFFF
+menu.separator.width:				1
+menu.separator.padding.width:			2
+menu.separator.padding.height:			4
 
-window.inactive.button.unpressed.image.color        : #8B8E8F
-window.inactive.button.pressed.image.color          : #2E3436
-window.inactive.button.disabled.image.color         : #ACAEAF
-window.inactive.button.hover.image.color            : #2E3436
-window.inactive.button.toggled.unpressed.image.color: #8B8E8F
-window.inactive.button.toggled.pressed.image.color  : #2E3436
-window.inactive.button.toggled.hover.image.color    : #2E3436
+# ======================================================================
+#			JANELAS
+# ======================================================================
 
-window.active.button.unpressed.bg                   : parentrelative
-window.active.button.pressed.bg                     : gradient vertical flat border
-window.active.button.pressed.bg.color               : #D6D6D6
-window.active.button.pressed.bg.colorTo             : #E8E8E7
-window.active.button.pressed.bg.border.color        : #E0E0E0
-window.active.button.hover.bg                       : parentrelative border
-window.active.button.hover.bg.border.color          : #BEBEBE
-window.active.button.disabled.bg                    : parentrelative
-window.active.button.toggled.unpressed.bg           : parentrelative
-window.active.button.toggled.hover.bg               : parentrelative border
-window.active.button.toggled.hover.bg.border.color  : #BEBEBE
+# Cor da borda
+window.active.border.color:			#5b5b5b
+window.inactive.border.color:			#bbbbbb
+# Tamanho do espaçamento interno da janela
+padding.width:					0
+padding.height:					0
+# Tamanho da borda da janela
+border.Width:					3
+# Tamanho da borda inferior da janela
+window.handle.width:				0
 
-window.inactive.button.unpressed.bg                   : parentrelative
-window.inactive.button.pressed.bg                     : gradient vertical flat border
-window.inactive.button.pressed.bg.color               : #D6D6D6
-window.inactive.button.pressed.bg.colorTo             : #E8E8E7
-window.inactive.button.pressed.bg.border.color        : #E0E0E0
-window.inactive.button.hover.bg                       : parentrelative border
-window.inactive.button.hover.bg.border.color          : #BEBEBE
-window.inactive.button.disabled.bg                    : parentrelative
-window.inactive.button.toggled.unpressed.bg           : parentrelative
-window.inactive.button.toggled.hover.bg               : parentrelative border
-window.inactive.button.toggled.hover.bg.border.color  : #BEBEBE
+# Fundo da barra de titulo
+window.active.title.bg:				flat
+window.active.title.bg.color:			#5b5b5b
+window.inactive.title.bg:			flat
+window.inactive.title.bg.color:			#bbbbbb
 
-window.handle.width                                 : 0
+# Titulo da janela
+window.active.label.bg:				flat
+window.active.label.bg.color:			#5b5b5b
+window.active.label.text.color:			#FFFFFF
+window.inactive.label.bg:			flat
+window.inactive.label.bg.color:			#bbbbbb
+window.inactive.label.text.color:		#ffffff
+window.label.text.justify:			center
 
-window.active.handle.bg                             : flat
-window.active.handle.bg.color                       : #E8E8E7
-window.active.grip.bg                               : flat
-window.active.grip.bg.color                         : #E0E0E0
+# Borda interna da janela
+window.active.client.color:			#5b5b5b
+window.inactive.client.color:			#bbbbbb
 
-window.inactive.handle.bg                           : flat
-window.inactive.handle.bg.color                     : #E8E8E7
-window.inactive.grip.bg                             : flat
-window.inactive.grip.bg.color                       : #E0E0E0
+# ======================================================================
+#			BOTÕES
+# ======================================================================
 
+# Botões não pressionados da janela com foco
+window.active.button.unpressed.bg:		flat solid
+window.active.button.unpressed.bg.color:	#5b5b5b
+window.active.button.unpressed.image.color:	#ffffff
+# Botões não pressionados da janela sem foco
+window.inactive.button.unpressed.bg:		flat solid
+window.inactive.button.unpressed.bg.color:	#bbbbbb
+window.inactive.button.unpressed.image.color:	#ffffff
 
-menu.border.width                                   : 1
-menu.separator.width                                : 1
-menu.separator.padding.width                        : 4
-menu.separator.padding.height                       : 4
-menu.overlap.x                                      : 1
-menu.overlap.y                                      : 0
-menu.border.color                                   : #CACACA
-menu.separator.color                                : #EBEBEB
+# Botão pressionado da janela com foco
+window.active.button.pressed.bg:		flat solid
+window.active.button.pressed.bg.color:		#5b5b5b
+window.active.button.pressed.image.color:	#ffffff
+# Botão pressionado da janela sem foco
+window.inactive.button.pressed.bg:		flat solid
+window.inactive.button.pressed.bg.color:	#bbbbbb
+window.inactive.button.pressed.image.color:	#FFFFFF
 
-menu.title.text.color                               : #2E3436
-menu.title.text.justify                             : center
+# Botão acionado da janela em foco
+window.active.button.toggled.bg:		flat sold
+window.active.button.toggled.bg.color:		#00FF00
+window.active.button.toggled.image.color:	#FFFFFF
+# Botão acionado da janela sem foco
+window.inactive.button.toggled.bg:		flat solid
+window.inactive.button.toggled.bg.color:	#00FF00
+window.inactive.button.toggled.image.color:	#000000
 
-menu.title.bg                                       : gradient vertical flat
-menu.title.bg.color                                 : #F4F4F4
-menu.title.bg.colorTo                               : #E8E8E7
+# Botão desativado da janela em foco
+window.active.button.disabled.bg:		flat solid
+window.active.button.disabled.bg.color:		#000000
+window.active.button.disabled.image.color:	#000000
+# Botão desativado da janela sem foco
+window.inactive.button.disabled.bg:		flat solid
+window.inactive.button.disabled.bg.color:	#000000
+window.inactive.button.disabled.image.color:	#000000
 
-menu.items.text.color                               : #2E3436
-menu.items.disabled.text.color                      : #ACAEAF
-menu.items.active.text.color                        : #FFFFFF
-menu.items.active.disabled.text.color               : #ACAEAF
-menu.items.bg                                       : flat
-menu.items.bg.color                                 : #FFFFFF
-menu.items.active.bg                                : flat
-menu.items.active.bg.color                          : #3A8CD7
+# ======================================================================
+#			OSD
+# ======================================================================
 
+osd.border.width:				2
+osd.border.color:				#5b5b5b
 
-osd.border.width                                    : 1
-osd.border.color                                    : #CACACA
-osd.bg                                              : flat
-osd.bg.color                                        : #E8E8E7
+osd.bg:						flat solid
+osd.bg.color:					#000000
+osd.label.bg:					flat solid
+osd.label.bg.color:				#5b5b5b
+osd.label.text.color:				#FFFFFF
 
-osd.hilight.bg                                      : flat
-osd.hilight.bg.color                                : #3A8CD7
-osd.unhilight.bg                                    : flat
-osd.unhilight.bg.color                              : #FFFFFF
+osd.hilight.bg:					flat solid
+osd.hilight.bg.color:				#5b5b5b
 
-osd.label.bg                                        : flat border
-osd.label.bg.color                                  : #E0E0E0
-osd.label.bg.border.color                           : #CACACA
-osd.label.text.color                                : #2E3436
+osd.unhilight.bg:				flat solid
+osd.unhilight.bg.color:				#000000
 
-osd.button.*.bg                                     : flat
-osd.button.*.bg.color                               : #E0E0E0
-osd.button.focused.box.color                        : #CACACA
-osd.button.pressed.box.color                        : #2E3436
+# ======================================================================
+#			FONTES
+# ======================================================================
 
+window.active.label.text.font:
+menu.title.text.font:
+menu.items.font:
