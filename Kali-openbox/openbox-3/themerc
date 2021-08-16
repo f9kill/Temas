@@ -1,0 +1,149 @@
+# Nome: Futuro_black
+# Autor: Hugo Torres <hugotorres@protonmail.com>
+#
+# Licença: MIT
+
+# ======================================================================
+#            MENU
+# ======================================================================
+
+# Tamanho da borda do menu
+menu.border.width:                              3
+# Cor da borda do menu
+menu.border.color:                              #646464
+
+# Titulo do menu
+menu.title.bg:                                  flat solid
+menu.title.bg.color:                            #AAAAAA
+menu.title.text.color:                          #23252e
+menu.title.text.justify:                        center
+
+# Itens do menu
+menu.items.bg:                                  flat solid
+menu.items.bg.color:                            #23252e
+menu.items.text.color:                          #FFFFFF
+menu.items.justify:                             center
+
+# Item do menu selecionado
+menu.items.active.bg:                           flat solid
+menu.items.active.bg.color:                     #AAAAAA
+menu.items.active.text.color:                   #23252e
+
+# Setas do menu
+menu.bullet.image.color:                        #AAAAAA
+menu.bullet.selected.image.color:               #23252e
+
+# Separador
+menu.separator.color:                           #FFFFFF
+menu.separator.width:                           1
+menu.separator.padding.width:                   2
+menu.separator.padding.height:                  4
+
+# ======================================================================
+#            JANELAS
+# ======================================================================
+
+# Cor da borda externa da janela
+window.active.border.color:                     #424658
+window.inactive.border.color:                   #424658
+# Tamanho da borda da externa janela
+border.Width:                                   1
+# Tamanho da borda inferior da janela
+window.handle.width:                            0
+
+# Tamanho da borda interno da janela
+window.client.padding.width:                    4
+window.client.padding.height:                   4
+# Cor da borda interna da janela
+window.active.client.color:                     #23252e
+window.inactive.client.color:                   #23252e
+
+# Tamanho da barra da titulo
+padding.height:                                 2
+# Cor do separador da barra de titulo
+window.active.title.separator.color:            #23252e
+window.inactive.title.separator.color:          #23252e
+
+
+# Fundo da barra de titulo
+window.active.title.bg:                         flat
+window.active.title.bg.color:                   #23252e
+window.inactive.title.bg:                       flat
+window.inactive.title.bg.color:                 #23252e
+
+# Titulo da janela
+window.active.label.bg:                         flat
+window.active.label.bg.color:                   #23252e
+window.active.label.text.color:                 #FFFFFF
+window.inactive.label.bg:                       flat
+window.inactive.label.bg.color:                 #23252e
+window.inactive.label.text.color:               #AAAAAA
+window.label.text.justify:                      center
+
+
+# ======================================================================
+#            BOTÕES
+# ======================================================================
+
+# Botões não pressionados da janela com foco
+window.active.button.unpressed.bg:              flat solid
+window.active.button.unpressed.bg.color:        #23252e
+window.active.button.unpressed.image.color:     #FFFFFF
+# Botões não pressionados da janela sem foco
+window.inactive.button.unpressed.bg:            flat solid
+window.inactive.button.unpressed.bg.color:      #23252e
+window.inactive.button.unpressed.image.color:   #AAAAAA
+
+# Botão pressionado da janela com foco
+window.active.button.pressed.bg:                flat solid
+window.active.button.pressed.bg.color:          #FFFFFF
+window.active.button.pressed.image.color:       #23252e
+# Botão pressionado da janela sem foco
+window.inactive.button.pressed.bg:              flat solid
+window.inactive.button.pressed.bg.color:        #23252e
+window.inactive.button.pressed.image.color:     #FFFFFF
+
+# Botão acionado da janela em foco
+window.active.button.toggled.bg:                flat sold
+window.active.button.toggled.bg.color:          #FFFFFF
+window.active.button.toggled.image.color:       #23252e
+# Botão acionado da janela sem foco
+window.inactive.button.toggled.bg:              flat solid
+window.inactive.button.toggled.bg.color:        #FFFFFF
+window.inactive.button.toggled.image.color:     #23252e
+
+# Botão desativado da janela em foco
+window.active.button.disabled.bg:               flat solid
+window.active.button.disabled.bg.color:         #23252e
+window.active.button.disabled.image.color:      #23252e
+# Botão desativado da janela sem foco
+window.inactive.button.disabled.bg:             flat solid
+window.inactive.button.disabled.bg.color:       #23252e
+window.inactive.button.disabled.image.color:    #23252e
+
+# ======================================================================
+#            OSD
+# ======================================================================
+
+osd.border.width:                               2
+osd.border.color:                               #5B5B5B
+
+osd.bg:                                         flat solid
+osd.bg.color:                                   #23252e
+osd.label.bg:                                   flat solid
+osd.label.bg.color:                             #5B5B5B
+osd.label.text.color:                           #FFFFFF
+
+osd.hilight.bg:                                 flat solid
+osd.hilight.bg.color:                           #5B5B5B
+
+osd.unhilight.bg:                               flat solid
+osd.unhilight.bg.color:                         #23252e
+
+# ======================================================================
+#            FONTES
+# ======================================================================
+
+window.active.label.text.font:
+menu.title.text.font:
+menu.items.font:
